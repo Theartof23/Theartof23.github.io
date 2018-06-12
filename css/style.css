@@ -3608,8 +3608,8 @@ padding: 3% 5% 0 5%;
   box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
   font-family: "montserratbold", sans-serif;
   font-weight: 100;
-  margin: 48px auto;
-  width: 20rem;
+  margin: 48px 30%;
+
 }
 @media screen and (min-width: 480px) {
   .blog-container {
@@ -3638,18 +3638,20 @@ padding: 3% 5% 0 5%;
 }
 
 .blog-cover {
-  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
+  background: url("https://img.evbuc.com/https%3A%2F%2Fcdn.evbuc.com%2Fimages%2F41810354%2F179629370942%2F1%2Foriginal.jpg?w=1000&auto=compress&rect=0%2C61%2C1026%2C513&s=f74d8d04c37e896f57d2dbd8cc7ceccc");
   background-size: cover;
   border-radius: 5px 5px 0 0;
   height: 15rem;
   box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+width: 100%;
+  
 }
 
 .blog-author,
 .blog-author--no-cover {
   margin: 0 auto;
   padding-top: .125rem;
-  width: 80%;
+  width: 100%;
 }
 
 .blog-author h3::before,
@@ -3667,8 +3669,9 @@ padding: 3% 5% 0 5%;
 }
 
 .blog-author h3 {
-  color: #000000;
+  color: #ffffff;
   font-weight: 100;
+    font-size: 23px;
 }
 
 .blog-author--no-cover h3 {
@@ -3677,9 +3680,10 @@ padding: 3% 5% 0 5%;
 }
 
 .blog-body {
-  margin: 0 auto;
-  width: 80%;
-    padding-top: 10px;
+  margin: 10 auto;
+  width: 95%;
+    height: 100%;
+    padding-top: 23px;
 }
 
 .video-body {
@@ -3723,7 +3727,16 @@ padding: 3% 5% 0 5%;
   white-space: nowrap;
   width: 5rem;
 }
-
+  @media screen and (min-width: 480px) {
+    width: 28rem;
+  }
+  @media screen and (min-width: 767px) {
+    width: 40rem;
+  }
+  @media screen and (min-width: 959px) {
+    width: 50rem;
+  }
+}
 .blog-footer {
   border-top: 1px solid #e6e6e6;
   margin: 0 auto;
