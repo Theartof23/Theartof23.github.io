@@ -2026,12 +2026,12 @@ footer {
   color: #fff;
     text-align: center;
     position: relative;
-   bottom: 90%;
+    
 }
 
 footer ._cont {
   position:relative;
-    
+   
 }
 
 footer .left {
@@ -3976,7 +3976,7 @@ section p {
 
 video { 
     position: fixed;
-    top: 48%;
+    top: 54%;
     left: 50%;
     min-width: 100%;
     min-height: 100%;
